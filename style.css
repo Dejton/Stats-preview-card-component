@@ -61,9 +61,40 @@
     position: absolute;
     bottom: 42%;
     left: 5%;
-    width: 27%;
+    width: 25%;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 13px;
+    font-size: 11px;
+    line-height: 20px;
     color: hsla(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.stats {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 10%;
+    left: 5%;
+    height: 60px;
+    width: 30%;
+}
+
+#stat {
+    width: 30%;
+    height: 100%;
+    line-height: 30px;
+}
+
+#stat h1 {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 28px;
+}
+
+#stat p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
     font-weight: 400;
 }
